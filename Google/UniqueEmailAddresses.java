@@ -1,4 +1,8 @@
 import java.util.*;
+/*
+    929. Unique Email Addresses: Easy
+    https://leetcode.com/problems/unique-email-addresses/description/
+ */
 class UniqueEmailAddresses {
     public static int numUniqueEmails(String[] emails) {
         Set<String> database = new HashSet<>();
