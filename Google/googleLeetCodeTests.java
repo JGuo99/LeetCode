@@ -43,4 +43,20 @@ public class googleLeetCodeTests {
         result = check.licenseKeyFormatting(test4, k4);
         assertEquals("", result);
     }
+    @Test
+    public void FruitIntoBasketTest() {
+        FruitIntoBaskets check = new FruitIntoBaskets();
+        int[] test1 = {1,2,1};
+        int result = check.totalFruit(test1);
+        assertEquals(3, result);
+
+        int[] test2 = {0,1,2,2};
+        result = check.totalFruit(test2);
+        assertEquals(3, result);
+
+        int[] test3 = {1,2,3,2,2};
+        result = check.totalFruit(test3);
+        assertEquals(4, result);
+    }
+
 }

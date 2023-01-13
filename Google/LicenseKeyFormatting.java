@@ -1,5 +1,6 @@
 /*
     482. License Key Formatting: Easy
+    https://leetcode.com/problems/license-key-formatting/description/
  */
 public class LicenseKeyFormatting {
     public String licenseKeyFormatting(String s, int k) {
