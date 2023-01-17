@@ -41,7 +41,20 @@ public class MaxHeap {
         items[0] = items[size - 1];
         size--;
         heapifyDown();
-        return items[0];
+        return item;
+    }
+
+    public int removeValue(int value) {
+        if (size == 0) throw new IllegalStateException();
+        int index;
+        for (index = 0; index < size; index++)
+            if (items[index] == value) break;
+
+        int item = items[index];
+        items[index] = items[size - 1];
+        size--;
+        heapifyDown();
+        return item;
     }
 
     public void add(int item) {
