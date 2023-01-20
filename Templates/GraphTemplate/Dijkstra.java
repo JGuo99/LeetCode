@@ -32,14 +32,15 @@ public class Dijkstra {
         @return shortestPath: (Node, TotalWeight)
      */
     public static Map<Integer, Integer> dijkstra(int[][] edges, int n, int start) {
-        // Set-Up
+    // Set-Up
         // Create the Map of Nodes
         Map<Integer, List<int[]>> neighbors = new HashMap<>();
         for (int i = 0; i < n; i++) neighbors.computeIfAbsent(i, k -> new ArrayList<>());
         // Add the edges and weight to the Nodes: 0: Src. Node, 1: Dest. Node, 2: Weight
         for (int[] edge : edges) neighbors.get(edge[0]).add(new int[]{edge[1], edge[2]});
-
         Map<Integer, Integer> shortestPath = new HashMap<>();
+
+    // Actual Algo
         // (Current Node, Weight Cost)
         PriorityQueue<int[]> pq = new PriorityQueue<>(
                 (a, b) -> (a[1] - b[1])
