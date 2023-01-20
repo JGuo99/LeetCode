@@ -1,12 +1,23 @@
 package TrieTemplate;
 
 public class Trie {
+    public class TrieNode {
+        TrieNode[] children;
+        boolean isEndOfWord;
+
+        TrieNode() {
+            children = new TrieNode[26];
+            isEndOfWord = false;
+            for (int i = 0; i < 26; i++)
+                children[i] = null;
+        }
+    }
     static TrieNode root;
     Trie() {
         root = new TrieNode();
     }
 
-    public static void insert(String key) {
+    public void insert(String key) {
         int level;
         int length = key.length();
         int index;

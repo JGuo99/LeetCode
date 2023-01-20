@@ -1,11 +1,11 @@
 package TrieTemplate;
-
-import TrieTemplate.Trie;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 import java.util.*;
-class TrieDemo {
-    // For Testing Purposes ================================================
-    public static String replaceWords(List<String> dictionary, String sentence) {
+public class test {
+     // For Testing Purposes ================================================
+    private String replaceWords(List<String> dictionary, String sentence) {
         Trie words = new Trie();
         for (String dic : dictionary)
             words.insert(dic);
@@ -33,10 +33,10 @@ class TrieDemo {
         return result.deleteCharAt(result.length()-1).toString();
     }
 
-    public static void main(String[] args) {
-        List<String> list = List.of(new String[]{"cat", "bat", "rat"});
-        String sent = "the cattle was rattled by the battery";
-        // "the cat was rat by the bat"
-        System.out.println(replaceWords(list, sent));
+    @Test
+    public void Trie() {
+        List<String> dictionary = List.of(new String[]{"cat", "bat", "rat"});
+        String sentence = "the cattle was rattled by the battery";
+        assertEquals("the cat was rat by the bat", replaceWords(dictionary, sentence));
     }
 }

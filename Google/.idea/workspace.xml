@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98827c7b-5ba2-46f6-9784-04f5244471b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Templates/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Templates/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Templates/GraphTemplate/DirectedCycleDetection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Templates/GraphTemplate/UndriectedCycleDetection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Templates/GraphTemplate/UnionFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Templates/GraphTemplate/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Templates/testTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Templates/Templates.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Templates/Templates.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Templates/out/production/Templates/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Templates/out/production/Templates/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2KZ6cYRNHgwHfUkWhGdVjevpEaJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Jeff/Documents/Jobs - Interview - Work/Leetcode/Google",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98827c7b-5ba2-46f6-9784-04f5244471b7" name="Changes" comment="" />
+      <created>1674169837296</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674169837296</updated>
+      <workItem from="1674169838397" duration="495000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
