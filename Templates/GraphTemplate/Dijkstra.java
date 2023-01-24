@@ -1,6 +1,9 @@
 package GraphTemplate;
 import java.util.*;
-
+/*
+    Example:
+    https://leetcode.com/problems/network-delay-time/description/
+ */
 public class Dijkstra {
     public static void main(String[] args) {
         int[][] edges = new int[7][3];

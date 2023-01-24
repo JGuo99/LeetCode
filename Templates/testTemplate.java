@@ -3,6 +3,6 @@ import static org.junit.Assert.assertEquals;
 public class testTemplate {
     @Test
     public void testName() {
-
+        assertEquals("Expected", "Actual");
     }
 }
