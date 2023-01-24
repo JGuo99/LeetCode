@@ -5,23 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98827c7b-5ba2-46f6-9784-04f5244471b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Templates/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Templates/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Templates/GraphTemplate/DirectedCycleDetection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Templates/GraphTemplate/UndriectedCycleDetection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Templates/GraphTemplate/UnionFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Templates/GraphTemplate/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Templates/testTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Templates/Templates.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Templates/Templates.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Templates/out/production/Templates/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Templates/out/production/Templates/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decompress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LakeVolume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Google/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Google/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Google/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Google/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Google/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Google/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Google/Google.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Google.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Google.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KZ6cYRNHgwHfUkWhGdVjevpEaJ" />
   <component name="ProjectViewState">
@@ -30,6 +44,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -41,6 +59,49 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.LakeVolume">
+    <configuration name="Decompress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decompress" />
+      <module name="Google" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LakeVolume" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LakeVolume" />
+      <module name="Google" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Google" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.Decompress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Google" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="Decompress" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LakeVolume" />
+        <item itemvalue="JUnit.test" />
+        <item itemvalue="JUnit.test.Decompress" />
+        <item itemvalue="Application.Decompress" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,6 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674169837296</updated>
       <workItem from="1674169838397" duration="495000" />
+      <workItem from="1674523812259" duration="5910000" />
     </task>
     <servers />
   </component>
